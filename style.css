@@ -30,4 +30,24 @@ textarea{
 
 ul{
     list-style: none;            
-}         
+}  
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #145c97;
+    color: #F8F8FF;
+    font-size: 20px;
+    box-shadow: 0 10px #062c49;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #008080;
+    color: #ece4e4;
+}
+ 
+button:active{
+    background-color: #6495ED;
+    box-shadow: 0 4px #363636;
+}
